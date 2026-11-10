@@ -1,6 +1,14 @@
 
 body{
     background-color: black;
+    color: white;
+    
+}
+h1,h1,h3,h4,h5,p,a{
+    color: white;
+}
+nav{
+    background-color: #252525;
 }
 .banner img{
     width: 100%;
@@ -54,6 +62,7 @@ main h3{
     font-size: 22px;
     box-shadow: 1px 1px 4px white;
     cursor: pointer;
+    color: white;
 
 }
 /* ========== main section end ======== */
