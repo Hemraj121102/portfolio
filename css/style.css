@@ -1,0 +1,113 @@
+
+body{
+    background-color: black;
+}
+.banner img{
+    width: 100%;
+
+}
+h2{
+    color: orangered;
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 40px;
+    border: 1px solid orangered;
+    
+}
+.btn-box a{
+    text-decoration: none;
+    color: white;
+    /* margin: 1rem; */
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+   
+
+}
+.btn-box .hire_me{
+background-color: orangered;
+}
+.btn-box .cv_btn{
+background-color: transparent;
+border: 2px solid gray;
+}
+
+
+/* main section start =========  */
+
+main small{
+    color: gray;
+    font-size: 1rem;
+}
+main h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: orangered;
+}
+.mern_box div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 22px;
+    box-shadow: 1px 1px 4px white;
+    cursor: pointer;
+
+}
+/* ========== main section end ======== */
+
+/* ======= about me start ==========*/
+.about_me{
+    background-color: #171923b3;
+}
+/* ====== about me end ======= */
+
+/* ======== skills satrt =========== */
+.skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
+    gap: 10px;
+    justify-content: center;
+    
+}
+.skills div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+/* ======== skills end =========== */
+/* ======== projects start  =========== */
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
+    justify-content: center;
+}
+/* ======== projects end  =========== */
+/* ========== contact start ========== */
+.contact_info{
+    box-shadow: 1px 1px 7px blue;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact_info div img{
+    width: 50px;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px white;
+}
+
+/* ========== contact end ========== */
+/* ========== footer start ========== */
+footer{
+    background-color: #171923b3;
+}
+/* ========== footer end ========== */
